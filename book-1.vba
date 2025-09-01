@@ -75,7 +75,7 @@ Sub ListFilesInFolder()
     ws.Columns("C").ColumnWidth = 25
     ws.Columns("D").ColumnWidth = 12
     
-    ' Autofit rows
+    ' ปรับแถวให้พอดีอัตโนมัติ
     ws.Rows.AutoFit
     
     MsgBox "? File list updated successfully!", vbInformation, "Completed"
